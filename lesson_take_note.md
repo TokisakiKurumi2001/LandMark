@@ -31,3 +31,8 @@ VStack center its child by default. In order to left alignment:
 ```swift
 VStack(alignment: .leading)
 ```
+
+# Embed map in SwiftUI View
+Since MapKit create MKMapView to render map. In order to embed into the SwiftUI view, we need to use UIViewRepresentable protocol.
+
+In order to see the map, click Resume and click Live Preview(the button near the phone to the lower right. If there is a rectangle, it's Live Preview)

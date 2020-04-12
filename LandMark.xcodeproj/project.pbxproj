@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D429CA5424433133006E710F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D429CA5324433133006E710F /* MapView.swift */; };
 		D467C15224431A5A00F0985A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D467C15124431A5A00F0985A /* AppDelegate.swift */; };
 		D467C15424431A5A00F0985A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D467C15324431A5A00F0985A /* SceneDelegate.swift */; };
 		D467C15624431A5A00F0985A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D467C15524431A5A00F0985A /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D429CA5324433133006E710F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D467C14E24431A5A00F0985A /* LandMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D467C15124431A5A00F0985A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D467C15324431A5A00F0985A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D467C15F24431A5C00F0985A /* Info.plist */,
 				D467C15924431A5C00F0985A /* Preview Content */,
 				D46E846B244322420025C0F3 /* CircleImage.swift */,
+				D429CA5324433133006E710F /* MapView.swift */,
 			);
 			path = LandMark;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				D467C15224431A5A00F0985A /* AppDelegate.swift in Sources */,
 				D46E846C244322420025C0F3 /* CircleImage.swift in Sources */,
+				D429CA5424433133006E710F /* MapView.swift in Sources */,
 				D467C15424431A5A00F0985A /* SceneDelegate.swift in Sources */,
 				D467C15624431A5A00F0985A /* ContentView.swift in Sources */,
 			);
