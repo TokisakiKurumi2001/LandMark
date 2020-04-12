@@ -4,7 +4,9 @@
 
 # Single View App contains 1 View only. To add more objects, use VStack and HStack
 
-Since our view is Single View, it will return only 1 view instance only. Therefore, to create multiple object. We use VStack, which vertically hold it child. And HStack, which horizontally store it child
+Since our view is Single View, it will return only 1 view instance only. Therefore, to create multiple object. We use VStack, which vertically hold it child. And HStack, which horizontally store it child.
+
+Nested VStack(HStack) is possible.
 
 ```swift
 VStack(alignment: .leading) {
