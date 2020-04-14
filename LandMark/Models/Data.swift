@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Data.swift
 //  LandMark
 //
 //  Created by Le Minh Khoi on 4/14/20.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Data: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Data_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Data()
     }
 }
