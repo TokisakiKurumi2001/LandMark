@@ -31,6 +31,7 @@
 		D47A26022445B5ED00BC71AE /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D47A25F52445B5ED00BC71AE /* stmarylake.jpg */; };
 		D47A26032445B5ED00BC71AE /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D47A25F62445B5ED00BC71AE /* chilkoottrail.jpg */; };
 		D47A26042445B5ED00BC71AE /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D47A25F72445B5ED00BC71AE /* rainbowlake.jpg */; };
+		D47A26062445B78500BC71AE /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47A26052445B78500BC71AE /* LandmarkList.swift */; };
 		D4DA9EFE2445B3CD00C8A30F /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DA9EFD2445B3CD00C8A30F /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		D47A25F52445B5ED00BC71AE /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		D47A25F62445B5ED00BC71AE /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		D47A25F72445B5ED00BC71AE /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		D47A26052445B78500BC71AE /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		D4DA9EFD2445B3CD00C8A30F /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				D429CA5324433133006E710F /* MapView.swift */,
 				D44895202445B1A200F53F86 /* ContentView.swift */,
 				D4DA9EFD2445B3CD00C8A30F /* LandmarkRow.swift */,
+				D47A26052445B78500BC71AE /* LandmarkList.swift */,
 			);
 			path = LandMark;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				D474A8D22445AE2E0037EC37 /* Landmark.swift in Sources */,
 				D44895232445B25900F53F86 /* Data.swift in Sources */,
 				D4DA9EFE2445B3CD00C8A30F /* LandmarkRow.swift in Sources */,
+				D47A26062445B78500BC71AE /* LandmarkList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
