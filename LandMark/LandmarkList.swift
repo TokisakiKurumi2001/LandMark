@@ -10,20 +10,13 @@ import SwiftUI
 
 struct LandmarkList: View {
     var body: some View {
-        // fixed list
-        /*List {
-            LandmarkRow(landmark: landmarkData[0])
-            LandmarkRow(landmark: landmarkData[1])
-        }*/
-        // Dynamic list
-        // Since we have add the `Identifiable` to
-        // Landmark struct, we can remove `id` part
-        // Since Landmark already have the field id
-        /*List(landmarkData, id: \.id) { landmark in
-            LandmarkRow(landmark: landmark)
-        }*/
-        List(landmarkData) { landmark in
-            LandmarkRow(landmark: landmark)
+        NavigationView {
+            List(landmarkData) { landmark in
+                NavigationLink(destination: LandMarkDetail()) {
+                    LandmarkRow(landmark: landmark)
+                }
+            }
+            .navigationBarTitle(Text("Landmarks"))
         }
     }
 }
