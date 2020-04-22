@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D406655D2450030500A4DAD3 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406655C2450030500A4DAD3 /* UserData.swift */; };
 		D40C363D244FFC58007CEF2C /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D40C362E244FFC57007CEF2C /* charleyrivers.jpg */; };
 		D40C363E244FFC58007CEF2C /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D40C362F244FFC57007CEF2C /* turtlerock.jpg */; };
 		D40C363F244FFC58007CEF2C /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D40C3630244FFC57007CEF2C /* silversalmoncreek.jpg */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D406655C2450030500A4DAD3 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		D40C362E244FFC57007CEF2C /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		D40C362F244FFC57007CEF2C /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		D40C3630244FFC57007CEF2C /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				D44895202445B1A200F53F86 /* ContentView.swift */,
 				D4DA9EFD2445B3CD00C8A30F /* LandmarkRow.swift */,
 				D47A26052445B78500BC71AE /* LandmarkList.swift */,
+				D406655C2450030500A4DAD3 /* UserData.swift */,
 			);
 			path = LandMark;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				D44895212445B1A200F53F86 /* ContentView.swift in Sources */,
 				D429CA5424433133006E710F /* MapView.swift in Sources */,
 				D467C15424431A5A00F0985A /* SceneDelegate.swift in Sources */,
+				D406655D2450030500A4DAD3 /* UserData.swift in Sources */,
 				D467C15624431A5A00F0985A /* LandmarkDetail.swift in Sources */,
 				D4DA9EFE2445B3CD00C8A30F /* LandmarkRow.swift in Sources */,
 				D40C3649244FFC58007CEF2C /* Data.swift in Sources */,
