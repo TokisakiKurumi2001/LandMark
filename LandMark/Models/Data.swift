@@ -1,10 +1,9 @@
-//
-//  Data.swift
-//  LandMark
-//
-//  Created by Le Minh Khoi on 4/14/20.
-//  Copyright © 2020 Le Minh Khoi. All rights reserved.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Helpers for loading images and data.
+*/
 
 import UIKit
 import SwiftUI
@@ -66,5 +65,4 @@ final class ImageStore {
         return images.index(forKey: name)!
     }
 }
-
 
