@@ -17,9 +17,11 @@ struct LandmarkList: View {
                 Toggle(isOn: $userData.showFavoriteList) {
                     Text("Favorite only")
                 }
-                ForEach(landmarkData) { landmark in
+                ForEach(userData.landmarks) { landmark in
                     if !self.userData.showFavoriteList || landmark.isFavorite {
-                        NavigationLink(destination: LandMarkDetail(landmark: landmark)) {
+                        NavigationLink(
+                            destination: LandMarkDetail(landmark: landmark)
+                                .environmentObject(self.userData)) {
                             LandmarkRow(landmark: landmark)
                         }
                     }
